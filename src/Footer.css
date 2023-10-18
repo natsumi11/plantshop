@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.footer div {
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer .location {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .getintouch {
+    display: flex;
+    flex-direction: column;
+}

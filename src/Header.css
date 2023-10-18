@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.toggleMenu {
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Leftcontennts{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    overflow: auto;
+}
+.Cart{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-left: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.abovecontennts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.abovecontenntsinside{
+    width: 100%;
+    background-image: url(./images/photo-1459411552884-841db9b3cc2a.avif);
+    background-position: center 47%;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.abovetitle{
+    text-align: center;
+}
+.abovePlant{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.blowcontennts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55%;
+}
